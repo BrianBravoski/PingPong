@@ -1,0 +1,15 @@
+.about{
+  float: left;
+  padding-left:20px;
+  font-size: 20px;
+  width:30%;
+  background-color: #33ccff;
+
+}
+.Game{
+  float: right;
+  width: 70%;
+}
+h3{
+  font-size: 30px;
+}
