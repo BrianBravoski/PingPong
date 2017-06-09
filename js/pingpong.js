@@ -1,27 +1,26 @@
 // business logic
-var output=[];
-var number = function(input){
-  for(var i=1; i<= input; i++){
-    if ((i%3 === 0)&&(i% 5=== 0)){
-      output.push("pingpong");
-    } else if (i% 5 === 0){
-      output.push("pong");
-    }else if(i% 3 === 0)
-    output.push("ping");
-  }else {
-    output.push(i);
-  }
+var divisible= function(input){
+  for(var i = 1; i<= input; i++){
+    if ((i % 3 === 0)&&(i % 5 === 0)){
+      $("#list").append('<li>' + "ping pong" + '</li>');
+    } else if (i % 5 === 0){
+      $("#list").append('<li>' + "pong" + '</li>');
+    }else if(i% 3 === 0){
+      $("#list").append('<li>' + "ping" + '</li>');
+    }
+  else{
+      $("#list").append('<li>' + i + '</li>');
+    }
 };
 };
 
 // user interface
 $(document).ready(function() {
-  $(".form").submit(function(event){
+  $("#form").submit(function(event){
     event.preventDefault();
+    $("#list").text("");
 
     var input = parseInt($("#input").val());
-    var result = number(input);
-
-    $(".result").text(output);
+    var result = divisible(input);
   });
 });
