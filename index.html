@@ -6,24 +6,24 @@
     <title>Ping Pong</title>
     <link rel="stylesheet" href="css/pingpong.css">
     <link rel="stylesheet" href="css/bootstrap.css">
-
+    <link href="https://fonts.googleapis.com/css?family=Abril+Fatface|Lobster|Shrikhand" rel="stylesheet">
   </head>
 
   <body>
     <div class="header jumbotron text-centre">
-      <h1>Ping-Pong</h1>
+      <h1>PING-PONG</h1>
     </div>
-    <div class="body">
-      <div class="about">
+    <div class=" container-fluid body">
+      <div class="container-fluid about">
         <h2><strong>About Ping Pong</strong></h2>
         <h6>Created by:</h6>
         <p>Brian Kemboi</p>
         <h6>GitHub Username/URL:</h6>
-        <p>BrianBravoski</p>
+        <p><a href="https://github.com/BrianBravoski">BrianBravoski</a></p>
         <h6>Test for:</h6>
         <p>JavaScript</p>
       </div>
-      <div class="Game">
+      <div class="container-fluid Game">
         <h3>Let's play!</h3>
         <h4><strong>Rules:</strong></h4>
         <p>Ping Pong will count up to your number from 1 with the following exceptions:</p>
@@ -32,10 +32,11 @@
           <li>Numbers divisible by 5 become "pong"</li>
           <li>Numbers divisible by 3 and 5 become "pingpong"</li>
         </ol>
+        <img src="images/giphy.gif" alt="ping" class="img-responsive">
         <div class="form">
           <form id="form" action="index.html" method="post">Enter your number here:
             <input type="text" id="input">
-            <button type="submit" name="button">Ping Pong!</button>
+            <button type="submit" class="btn btn-info" name="button">Ping Pong!</button>
           </form>
         </div>
         <div id="result">
@@ -45,6 +46,7 @@
         </div>
       </div>
     </div>
+    <footer> Copyright 2017</footer>
     <script src="js/jquery-3.2.1.min.js" charset="utf-8"></script>
     <script src="js/pingpong.js" charset="utf-8"></script>
 

@@ -1,29 +1,39 @@
+body{
+  background-image: url("../images/binding_dark.png");
+  color: #3366ff;
+}
+.header{
+  text-align: center;
+  font-family: 'Lobster', cursive;
+}
 .about{
   float: left;
   padding-left:20px;
-  font-size: 20px;
+  font-size:30px;
   width:30%;
   background-size:cover;
   background-color: #ff00ff;
   height:90%;
-
+  font-family: 'Abril Fatface', cursive;
 }
 .Game{
   float: right;
   width: 70%;
   font-size: 20px;
   padding-left: 5%;
+  color: white;
+  font-family: 'Shrikhand', cursive;
 
 }
-.result{
-  text-align: center;
 
+
+footer{
+  color: white;
+  padding: 20px;
+  border: 1px solid white;
+  text-align: center;
+  font-size: 20px;
 }
-.header{
-  text-align: center;
-  background-image: url("../images/ping.png");
-  background-position:40% 40%;
-  background-size: cover;
-  height: 400px;
-
+form{
+  color: blue;
 }
