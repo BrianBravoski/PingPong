@@ -22,7 +22,7 @@ The program accepts a number and displays:
 
 #### Contributors
 >-Brian Kemboi
-<br> The link to the ip is BrianBravoski.github.io/PingPong
+<br> The link to the ip is https://BrianBravoski.github.io/PingPong
 
 
   #### Copyright and licensing
